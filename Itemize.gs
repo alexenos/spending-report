@@ -28,7 +28,7 @@ function itemizeCat() {
         // Get Sheet
         var month = allSheets[idx];
         // While there is an expenditure
-        rowM = 2;
+        var rowM = 2;
         while(month.getRange(rowM, 2).getValue() != "" || month.getRange(rowM, 3).getValue() != "") {
           if(month.getRange(rowM, 3).getValue() == cat) { // transaction is of category of interest
             month.getRange(rowM, 1, 1, 2).copyTo(itmSht.getRange(rowI, 1, 1, 2));

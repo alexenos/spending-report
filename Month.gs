@@ -305,8 +305,8 @@ function clearCatData(month, def) { //                           Clear Category 
   var numRows = getNumCat(def); 
   // Clear data
   month.getRange(10, 7, numRows, 3).clear(); // Categories
-  month.getRange(2, 9, 1, def.cat[3].length).clear; // Accounts
-  month.getRange(9, 12, 1, def.cat[2].length).clear; // Investments, just names no numbers!
+  month.getRange(2, 9, 1, def.cat[3].length).clear(); // Accounts
+  month.getRange(9, 12, 1, def.cat[2].length).clear(); // Investments, just names no numbers!
 }
 
 function getTransac(month) { //                                                   Get Transactions //
