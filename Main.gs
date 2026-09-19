@@ -17,9 +17,9 @@ function onOpen() { //                                                          
   ui.createMenu("Month")
     .addItem("Monthly Spending",   "monthSpendAsmt")
     .addItem("Clear Data",         "clearMonthData")
-    .addItem("Calculate Balances", "transacBalances")
+    .addItem("Calculate Balances", "transacBalances_M")
     .addItem("Calculate Totals",   "monthlyTotals")
-    .addItem("Update Categories",  "updateCategories")
+    .addItem("Update Categories",  "updateCategories_M")
     .addItem("Category Spending",  "monthlyCatSpending")
     .addItem("Format",             "monthlyFormat")
     .addToUi();
